@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+body{
+    background-color: ivory;
+}
+
+#main{
+    background-color:bisque;
+    font-family: 'Josefin Sans', sans-serif;
+    margin:auto;
+    padding: 20px; /* the distance between margin and the content*/
+    max-width: 800px; /* It is the distance from the edges of the screen and starting of the content*/
+    border-radius: 60px 60px 60px 60px;
+    box-shadow: -11px -8px 5px 0px rgba(0,0,0,0.75);
+}
+
+#img-div{
+    text-align: center;
+    margin-bottom: 50px; /* space from the bottom of the figure to the content*/
+}
+
+img{
+    width: 150px;
+    border-radius: 30px 30px 30px 30px;
+}
+
+figcaption{
+    font-style: italic;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+#tribute-info p{
+    text-align: justify;
+    line-height: 1.4; /* distance between 2 lines*/
+    margin-bottom: 15px; /* for distance between the paragraphs*/
+    text-indent: 20px; /* space before starting a paragraph*/
+}
+
+#work{
+    margin-top: 20px; /* for space from paragraph content to list of books*/
+
+}
+
+#books-list{
+    margin-top: 20px;
+}
+
+#books-list li{
+    margin-bottom: 10px;
+}
+
+q{
+    font-style: italic;
+    display:block;
+    margin-top: 20px;
+    line-height: 1.5;
+    margin-left: 10px;
+}
